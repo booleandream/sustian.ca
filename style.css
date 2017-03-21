@@ -9,7 +9,7 @@
 
 .banner
 {
-	
+
 }
 
 .menu{background:#0577FC;;overflow:hidden}
@@ -36,10 +36,56 @@
 	font-size:14pt;
 	display:block;
 }
-
+.link:hover{
+	text-decoration: none ;
+}
 .menu ul li a:hover
 {
 	background:#0355D2;
 }
 .footer{color:#0355D2;text-align:center;font-style:italic}
 
+.btnFloat {
+	padding: 10px 30px;
+	background: #2098d1;
+	color: white !important;
+	text-decoration: none !important;
+	font-size: 30px;
+	transition: all 0.3s; 
+	text-align: center;
+	margin-top: 10%;
+}
+
+#white{
+	color: white;
+}
+
+.btnFloat:hover #white{
+	color: #2098d1;
+}
+.btnFloat:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #2098d1;
+    background: white; }
+.para{
+	font-size: 20px;
+	text-align: justify;
+}
+.registration{
+	border: 1px solid #ff6666;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+#comingsoon{
+	padding-left: 8px;
+}
+
+
+.notice{
+  text-align: justify;
+}
+
+.smallpic{
+	width: 30px;
+	height: 30px;
+}

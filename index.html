@@ -5,10 +5,11 @@
 		<meta charset="UTF-8">
 		<title>SUSTian Canada</title>
 		<link rel="stylesheet" href="style.css">
+
 		
-		<link href="tools/style.css" rel="stylesheet" type="text/css" />
-		<link href="tools/960.css" rel="stylesheet" type="text/css" />
-		
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 		<!--For nivo START-->
 		<link rel="stylesheet" href="nivo/themes/bar/bar.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="nivo/themes/default/default.css" type="text/css" media="screen" />
@@ -20,7 +21,7 @@
 
 	</head>
 
-	<body>
+	<body style="display: none">
 		<div class="container">
 
 
@@ -43,48 +44,52 @@
 
 			</div>
 
-
-
-
-			<div class="mcontent">
-				<div class="box mr20">
-					<h2>Register</h2>
-					<p>We are building a database of SUSTians in Canada. Please register.</p>
-					<a href="https://goo.gl/GXGEpu" target="_blank">Register</a><br><br>
-					<a href="https://goo.gl/ZWNB0K" target="_blank">List of SUSTians</a>
+			<div class="container">
+				<div class="row col-sm-12" >
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-warning">This site is still under development to make it more usable....!</li>
+					</ul>
 				</div>
-				<div class="box mr20" style="text-align: center">
-				
-					<img src="images/logo.png" width="100px" height="100px">
-					
-				</div>
-				<div class="box2">
-					<h2>Follow us</h2>
-					<a href="https://www.facebook.com/sustianscanada/?hc_ref=SEARCH&fref=nf" target="_blank"><img src="images/f.png" alt=""></a>				
-					<a href="https://www.facebook.com/groups/981702255273021/" target="_blank"><img src="images/f.png" alt=""></a>				
-					<h4>Page</h4>
-					<h4>Group</h4>
-				</div>			
 			</div>
 
 
-			<div class="leftBar"></div>
-			<div class="content"></div>
-			<div class="footer">
-				<hr>
-				<p>&copy Sajib Biswas, &reg All right reserved.</p>
-			</div>
-		</div>
+			<div class="container">
 
-		<!--For nivo START-->
-		<script src="nivo/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="nivo/jquery.nivo.slider.js"></script>
-		<script type="text/javascript">
-			$(window).load(function () {
-				$('#slider').nivoSlider();
-			});
-		</script>
-		<!--For nivo END-->
+				<!-- registration panel (leftSide: text rightSide: buttons)-->
+				<div class="row col-sm-12 registration" >
+					<div class="col-sm-12 col-md-6 margin_top_bottom">
+						<h2 style="text-align: center">Register</h2>
+						<p class="para">We are building a database of SUSTians in Canada. All SUSTians living in Canada are requested to submit their name and batch information.</p>
+						<p class="notice"># Contact information will not be displayed publicly. If you need to contact with any member, please contact through <a href="https://www.facebook.com/sustianscanada/?hc_ref=SEARCH&fref=nf" target="_blank">facebook</a> page. We will help you getting connected.</p>
+						<a href="https://www.facebook.com/sustianscanada/?hc_ref=SEARCH&fref=nf" target="_blank"><img class="smallpic" src="images/fb.png"></a>				
+					</div>
+
+					<div class="col-sm-12 col-md-6">
+						<div class="btnFloat">
+							<a href="https://goo.gl/GXGEpu" target="_blank" class="link"><span id="white">Register</span></a>
+						</div>
+						<div class="btnFloat">
+							<a href="https://goo.gl/ZWNB0K" target="_blank" class="link"><span id="white">List of SUSTians</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!--For nivo START-->
+			<script src="nivo/jquery-1.7.1.min.js"></script>
+			<script type="text/javascript" src="nivo/jquery.nivo.slider.js"></script>
+			<script type="text/javascript">
+				$(window).load(function () {
+					$('#slider').nivoSlider();
+					$("body").css("display", "initial");
+				});
+
+
+			</script>
+			<!--For nivo END-->
 
 	</body>
 
