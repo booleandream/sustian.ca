@@ -3,7 +3,7 @@
 .container
 {
 	max-width:960px;
-	border:#000 solid 1px;
+	//border:#000 solid 1px;
 	margin:auto;
 }
 
@@ -22,8 +22,8 @@
 .menu ul li
 {
 	float:left;
-	border-left:#02AFFE solid 1px;
-	border-right:#0359D2 solid 1px;
+	//border-left:#02AFFE solid 1px;
+	//border-right:#0359D2 solid 1px;
 }
 .menu ul li:first-child{border-left:none}
 .menu ul li:last-child{border-right:none}
